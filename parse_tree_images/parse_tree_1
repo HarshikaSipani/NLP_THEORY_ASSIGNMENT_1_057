@@ -1,0 +1,23 @@
+digraph {
+	0 [label=S shape=ellipse]
+	1 [label=NP shape=ellipse]
+	0 -> 1
+	2 [label=DET shape=ellipse]
+	1 -> 2
+	3 [label=the shape=box]
+	2 -> 3
+	4 [label=NOUN shape=ellipse]
+	1 -> 4
+	5 [label=phone shape=box]
+	4 -> 5
+	6 [label=VP shape=ellipse]
+	0 -> 6
+	7 [label=VERB shape=ellipse]
+	6 -> 7
+	8 [label=works shape=box]
+	7 -> 8
+	9 [label=ADV shape=ellipse]
+	6 -> 9
+	10 [label=great shape=box]
+	9 -> 10
+}
